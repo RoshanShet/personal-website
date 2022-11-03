@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 * {
     box-sizing: border-box;
-    font-family: Raleway;
+    font-family: Roboto;
     color: rgb(73, 73, 73);
 }
 
@@ -43,8 +43,7 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
-    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
+    background-color: #263238;
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -113,13 +112,11 @@ html, body {
 }
 
 .main-footer {
-    background-color: red;
+    background-color: #263238;
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
-
-
 }
 
 .main-footer-container {
