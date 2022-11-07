@@ -7,12 +7,12 @@ jobs:
     name: Clone
     runs-on: ubuntu-latest
     steps:
-    - name: remote ssh
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: |
-          git clone https://github.com/RoshanShet/personal-website.git
+      - name: remote ssh
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            git clone https://github.com/RoshanShet/personal-website.git
